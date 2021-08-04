@@ -1,0 +1,95 @@
+@media (max-height: 500px) {
+    .contact-info-open {
+        height: 10vh;
+    }    
+
+    .open-contact-name {
+        padding-bottom: 6px;
+    }
+
+    .chat {
+        height: 83vh;
+    }
+}
+
+@media (max-height: 710px) {
+    .contact-info-open {
+        height: 9vh;
+    }    
+
+    .open-contact-name {
+        padding-bottom: 6px;
+    }
+
+    .chat {
+        height: 84vh;
+    }
+}
+
+@media (min-height: 952px) {
+    .contact-info-open {
+        height: 7vh;
+    }    
+
+    .open-contact-name {
+        padding-bottom: 6px;
+    }
+
+    .chat {
+        height: 85vh;
+    }
+}
+
+@media (min-height: 1143px) {
+    .contact-info-open {
+        height: 6vh;
+    }    
+
+    .open-contact-name {
+        padding-bottom: 6px;
+    }
+
+    .chat {
+        height: 86vh;
+    }
+}
+
+@media (min-height: 1200px) {
+    .contact-info-open {
+        height: 5vh;
+    }    
+
+    .chat {
+        height: 87vh;
+    }
+
+    .app-info {
+        height: 3vh; 
+    }
+
+    .menssages {
+        height: 92vh;
+    }
+}
+
+@media (min-height: 1714px) {
+    .contact-info-open {
+        height: 4vh;
+    }    
+
+    .open-contact-name {
+        padding-bottom: 6px;
+    }
+
+    .chat {
+        height: 88vh;
+    }
+
+    .app-info {
+        height: 3vh; 
+    }
+
+    .menssages {
+        height: 92vh;
+    }
+}

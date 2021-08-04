@@ -1,0 +1,205 @@
+@media (max-width: 1375px) {
+    .groups {
+        display: none;
+    }
+
+    .group-open-btn {
+        justify-content: flex-end;
+        visibility: visible;
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        padding-top: 5px;
+    }
+    
+    .group-open-img {
+        justify-content: flex-end;
+        visibility: visible;
+        width: 20px;
+        height: 20px;
+        padding-top: 5px;
+    }
+
+    .app-info {
+        justify-content: space-between;
+    }
+
+    .chat-open {
+        width: 67vw;
+    }
+
+    .contacts {
+        width: 33vw;
+    }
+
+    .last-msg {
+        position: block;
+        width: 22vw;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .read-mark:first-child {
+        padding-left:  30px;
+    }
+
+    .search-contact {
+        width: 33vw;
+    }
+}
+
+@media (max-width: 1100px) {
+    .read-status {
+        display: none;
+    }   
+
+    .last-msg {
+        position: block;
+        width: 26vw;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+
+@media (max-width: 1024px) {
+    .last-msg {
+        position: block;
+        width: 25vw;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .text {
+        min-width: 250px;
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 615px) {
+    .chat-open {
+        display: none;
+    }
+
+    .last-msg {
+        position: block;
+        min-width: 300px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .contacts {
+        width: 100vw;
+    }
+
+    .search-contact {
+        width: 100vw;
+    }
+}
+
+/* MEDIA QUERY - HEIGHT */
+
+@media (max-width: 1375px) {
+    .groups {
+        display: none;
+    }
+
+    .group-open-btn {
+        justify-content: flex-end;
+        visibility: visible;
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        padding-top: 5px;
+    }
+    
+    .group-open-img {
+        justify-content: flex-end;
+        visibility: visible;
+        width: 20px;
+        height: 20px;
+        padding-top: 5px;
+    }
+
+    .app-info {
+        justify-content: space-between;
+    }
+
+    .chat-open {
+        width: 67vw;
+    }
+
+    .contacts {
+        width: 33vw;
+    }
+
+    .last-msg {
+        position: block;
+        width: 22vw;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .read-mark:first-child {
+        padding-left:  30px;
+    }
+
+    .search-contact {
+        width: 33vw;
+    }
+}
+
+@media (max-width: 1100px) {
+    .read-status {
+        display: none;
+    }   
+
+    .last-msg {
+        position: block;
+        width: 26vw;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+
+@media (max-width: 1024px) {
+    .last-msg {
+        position: block;
+        width: 25vw;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .text {
+        min-width: 250px;
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 615px) {
+    .chat-open {
+        display: none;
+    }
+
+    .last-msg {
+        position: block;
+        min-width: 300px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .contacts {
+        width: 100vw;
+    }
+
+    .search-contact {
+        width: 100vw;
+    }
+}

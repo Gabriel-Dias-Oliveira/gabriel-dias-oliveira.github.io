@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Chat.Me</title>
+            <link rel="icon" href="images/icons/chat.png">
+            <link rel="stylesheet" href="src/style/chat.css">
+            <link rel="stylesheet" href="src/style/chat-width-query.css">
+            <link rel="stylesheet" href="src/style/chat-height-query.css">
+        </head>
+
+        <body>
+            <div class="container">
+                <div class="contacts">
+                    <div class="app-info">
+                        <spam class="app-name">Chat.Me</spam>
+                        <button class="icon-btn group-open-btn"><img src="images/icons/group.png" alt="group-open" class="icon-img group-open-img"></button>
+                    </div>
+
+                    <div class="menssages">
+                        <div class="contact">
+                            <div class="profile-picture">
+                                <img  src="src/images/user-images/wolf.jpg" alt="user-img" class="profile-picture" />
+                            </div>
+
+                            <div class="contact-info">
+                                <span class="contact-name">José</span>
+
+                                <div class="msg-infos">
+                                    <span class="last-msg">Oii!</span>
+                                    
+                                    <div class="read-status">
+                                        <img src="src/images/icons/check-mark.png" alt="check-mark" class="read-mark" />
+                                        <img src="src/images/icons/check-mark.png" alt="check-mark" class="read-mark" />
+                                    </div>
+                                </div>
+                            </div>
+
+                         
+                        </div>
+
+                        <div class="contact">
+                            <div class="profile-picture">
+                                <img src="src/images/user-images/hacker2.jpeg" alt="user-img" class="profile-picture" />
+                            </div>
+
+                            <div class="contact-info">
+                                <span class="contact-name">Gabriel Dias</span>
+                                <span class="last-msg">Esse é um texto bemmm longo, pra testar a funcionalidade!</span>
+                            </div>
+
+                            <div class="read-status">
+                                <img src="src/images/icons/check-mark.png" alt="check-mark" class="read-mark" />
+                                <img src="src/images/icons/check-mark.png" alt="check-mark" class="read-mark" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="search-contact">
+                        <input type="text" class="contact-name-search" name="contact-name-search" id="contact-name-search" placeholder="Contact name... "/>
+                    </div>
+                </div>
+
+                <div class="chat-open">
+                    <div class="contact-info-open">
+                        <img src="src/images/user-images/hacker2.jpeg" alt="open-user-image" class="open-user-image" />
+                        
+                        <div class="text-info">
+                            <span class="open-contact-name">Gabriel Dias</span>
+                            <span class="open-contact-status">Typing...</span>
+                        </div>
+                    </div>
+
+                    <div class="chat">
+                        <div class="chat-msg recieved-msg">
+                            <div class="chat-content recieved">
+                                <spam class="text recieved-msg-text">Oii, tudo bem?</spam>
+                                <spam class="text msg-time">10:54</spam>
+                            </div>
+                        </div>
+
+                        <div class="chat-msg recieved-msg">
+                            <div class="chat-content recieved">
+                                <spam class="text recieved-msg-text">Esse site é muit bom, podemos conversar de forma prática e segura!!</spam>
+                                <spam class="text msg-time">10:55</spam>
+                            </div>
+                        </div>
+
+                        <div class="chat-msg sended-msg">
+                            <div class="chat-content sended">
+                                <spam class="text sended-msg-text">Sim, com certeza! Eu adorei este site.</spam>
+                                <spam class="text msg-time">11:22</spam>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="send-msg">
+                        <button class="icon-btn send-emoji-btn"><img src="src/images/icons/emoji.png" alt="send-emoji" class="icon-img send-emoji-btn-img"></button>
+                        <input type="text" class="send-msg-txt" name="send-msg-txt" id="send-msg-txt" placeholder="Send message... "/>
+                        <button class="icon-btn send-msg-btn"><img src="src/images/icons/send-msg.png" alt="send-msg" class="icon-img send-msg-btn-img"></button>
+                    </div>
+                </div>
+
+                <div class="groups">
+                    <div class="group-list">
+                        <div class="group-item">
+                            <div class="group-picture">
+                                <img  src="src/images/group-images/nasa-group.jpg" alt="user-img" class="profile-picture" />
+                            </div>
+
+                            <div class="group-info">
+                                <span class="group-name">Nasa 2.0</span>
+
+                                <div class="group-users-info">
+                                    <span class="members">Members:</span>
+                                    <spam class="group-users">Henrique, JH, Murilo, Pedro and you</spam>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="search-group">
+                        <input type="text" class="group-name-search" name="group-name-search" id="group-name-search" placeholder="Group name... "/>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>
